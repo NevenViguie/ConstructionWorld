@@ -1,9 +1,9 @@
 # ConstructionWorld
 PLP 5A
 
-################################################
+# ############################################ #
 # DEFINITION DES ECRANS - cf Maquette Balsamiq #
-################################################
+# ############################################ #
 
 # ECRAN MENU - Apparaît au lancement du jeu, après le menu de fin
 Choix entre le mode Facile (2 réponses possibles) / mode dificile (4 réponses possibles).
@@ -34,9 +34,9 @@ Bouton "Reveir au menu".
 Affichage du bâtiment 3D.
 
 
-###########################
+# ####################### #
 # DEFINITION DES ELEMENTS #
-###########################
+# ####################### #
 
 # DEROULEMENT DU JEU
 Chaque carte représente une situation, en fonction de la réponse, la jauge évolue.
@@ -67,3 +67,14 @@ Modifie le temps affiché sur le chrono.
 Leader-bord sur l'écran principal. Contient le psudo et le score associé.
 Fonction de tri Leader-board global / personnel ??
 Calcul en fonction de la difficulté + des questions correctement répondues + du temps de réponse
+
+# ################ #
+# CHOIX TECHNIQUES #
+# ################ #
+
+# PLATEFORMES
+Ordinateurs Windows (peut-être MacOS et Linux)
+
+# HOST
+Gestion de comptes et score : Dans unreal ungine via Gamespark.
+Leaderboard : Dans unreal ungine ?? Temps réel ou gardé en mémoire dans une BDD
